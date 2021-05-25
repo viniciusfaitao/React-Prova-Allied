@@ -21,7 +21,7 @@ export const PlataformView = () => {
   return (
     <Background>
       <Main>
-        {plataforms ? (
+        {plataforms.length ? (
           plataforms.map((plataform) => (
             <Section key={plataform.sku}>
               <Title>{plataform.nome}</Title>

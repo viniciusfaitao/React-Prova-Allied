@@ -23,7 +23,7 @@ export const PlanView = () => {
       {!user.plataformSku && <Redirect to="/plataformas" />}
 
       <Main>
-        {plans ? (
+        {plans.length ? (
           <>
             <AccountComponent />
             {plans.map(
@@ -37,14 +37,16 @@ export const PlanView = () => {
                     <Content>
                       {plan.aparelho ? (
                         <>
-                          <Title>{plan.aparelho.nome}</Title>
+                          <Info>
+                            <p>{plan.aparelho.nome}</p>
+                          </Info>
                           <Info>
                             Valor: <p>R$ {plan.aparelho.valor}</p>
                           </Info>
                           {plan.aparelho.valorParcela !== false ? (
                             <Info>
                               Número de parcelas:{" "}
-                              <p>{plan.aparelho.numeroParcelas}</p>
+                              <p>{plan.aparelho.numeroParcelas}</p>x
                             </Info>
                           ) : null}
 
@@ -54,11 +56,11 @@ export const PlanView = () => {
                               <p>R$ {plan.aparelho.valorParcela}</p>
                             </Info>
                           ) : (
-                            <p>Este plano não oferece parcelas para o modem!</p>
+                            <p>Este plano não oferece parcelas!</p>
                           )}
                         </>
                       ) : (
-                        <p>Este plano não requer modem!</p>
+                        <p>Este plano não requer modem ou roteador!</p>
                       )}
                     </Content>
                     <Link to="/usuario">
