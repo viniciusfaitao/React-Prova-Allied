@@ -17,12 +17,13 @@ Linguagem utilizada:
 
 • React ✔️
 
-Acessível pelo link
-https://provaalliedbr.firebaseapp.com/plataformas
+## Acessível pelo link
 
+<a>https://provaalliedbr.firebaseapp.com/plataformas</a>
+  
 ou
 
-https://provaalliedbr.web.app/plataformas
+<a>https://provaalliedbr.web.app/plataformas</a>
 
 
 ## Instalações e uso
