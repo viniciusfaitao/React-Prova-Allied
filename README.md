@@ -4,18 +4,18 @@ Nesta aplicação utilizamos a API celulardireto para criar um ambiente de contr
 ## Motivação do projeto<br/>
 Prova Front-End AlliedBR<br/>
 
-Utilizados
+Desenvolvimento: <br/><br/>
 
-• Versionamento em repositório público (Github). ✔️
-• Instruções para rodar o projeto (README). ✔️
-• Componentes reutilizáveis. ✔️
-• Aplicação responsiva. ✔️
-• Hooks e Contexts. ✔️️
-• ES6. ✔️️
+• Versionamento em repositório público (Github).  <br/>
+• Instruções para rodar o projeto (README).  <br/>
+• Componentes reutilizáveis.  <br/>
+• Aplicação responsiva.  <br/>
+• Hooks e Contexts.  <br/>
+• ES6.  <br/>
 
-Linguagem utilizada:
+Linguagem utilizada: <br/><br/>
 
-• React ✔️
+• React 
 
 ## Acessível pelo link
 
