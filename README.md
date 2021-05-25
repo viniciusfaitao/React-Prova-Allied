@@ -18,7 +18,7 @@ Linguagem utilizada:
 • React ✔️
 
 Acessível pelo link
-https:/provaalliedbr.firebaseapp.com/plataformas
+https://provaalliedbr.firebaseapp.com/plataformas
 
 ou
 
