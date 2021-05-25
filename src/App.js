@@ -4,16 +4,16 @@ import {
   Route,
   Redirect,
 } from "react-router-dom";
-import { PlataformView } from "./Views/PlataformView";
-import { PlataformProvider } from "./Contexts/PlataformContext";
-import { PlanProvider } from "./Contexts/PlanContext";
-import { UserProvider } from "./Contexts/UserContext";
+import { PlataformView } from "./Views/Plataform";
+import { PlataformProvider } from "./Contexts/Plataform";
+import { PlanProvider } from "./Contexts/Plan";
+import { UserProvider } from "./Contexts/User";
 import { Background } from "./Style";
 import { HeaderComponent } from "./Components/Header/Index";
 import { FooterComponent } from "./Components/Footer/Index";
-import { PlanView } from "./Views/PlanView";
-import { UserView } from "./Views/UserView";
-import { ConcludedView } from "./Views/ConcludedView";
+import { PlanView } from "./Views/Plan";
+import { UserView } from "./Views/User";
+import { ConcludedView } from "./Views/Concluded";
 
 function App() {
   return (

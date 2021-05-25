@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { Redirect } from "react-router-dom";
 import { AccountComponent } from "../../Components/Account/Index";
-import { UserContext } from "../../Contexts/UserContext";
+import { UserContext } from "../../Contexts/User";
 import { Background } from "./Style";
 
 export const ConcludedView = () => {

@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { UserContext } from "../../Contexts/UserContext";
+import { UserContext } from "../../Contexts/User";
 import { HeaderBackground, HeaderCenter } from "./Style";
 
 export const HeaderComponent = () => {

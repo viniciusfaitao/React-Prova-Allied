@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useEffect, useState } from "react";
 import { UsePlan } from "../../Services/PlanApi";
-import { UserContext } from "../UserContext";
+import { UserContext } from "../User";
 
 export const PlanContext = createContext();
 

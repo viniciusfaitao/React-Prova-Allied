@@ -2,8 +2,8 @@ import React, { useContext } from "react";
 import { Link, Redirect } from "react-router-dom";
 import { AccountComponent } from "../../Components/Account/Index";
 import { LoadingPage } from "../../Components/LoadingPage/Index";
-import { PlanContext } from "../../Contexts/PlanContext";
-import { UserContext } from "../../Contexts/UserContext";
+import { PlanContext } from "../../Contexts/Plan";
+import { UserContext } from "../../Contexts/User";
 import {
   Background,
   Main,

@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from "react";
-import { PlanContext } from "../../Contexts/PlanContext";
-import { PlataformContext } from "../../Contexts/PlataformContext";
-import { UserContext } from "../../Contexts/UserContext";
+import { PlanContext } from "../../Contexts/Plan";
+import { PlataformContext } from "../../Contexts/Plataform";
+import { UserContext } from "../../Contexts/User";
 import { AccountBackground, Account, Info, Main, Total } from "./Style";
 
 export const AccountComponent = () => {

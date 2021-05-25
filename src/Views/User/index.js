@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import InputMask from "react-input-mask";
 import { Link, Redirect } from "react-router-dom";
 import { AccountComponent } from "../../Components/Account/Index";
-import { UserContext } from "../../Contexts/UserContext";
+import { UserContext } from "../../Contexts/User";
 import { Background, Main, Form, Button } from "./Style";
 
 export const UserView = () => {

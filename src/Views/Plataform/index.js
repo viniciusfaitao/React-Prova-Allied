@@ -1,8 +1,8 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { LoadingPage } from "../../Components/LoadingPage/Index";
-import { PlataformContext } from "../../Contexts/PlataformContext";
-import { UserContext } from "../../Contexts/UserContext";
+import { PlataformContext } from "../../Contexts/Plataform";
+import { UserContext } from "../../Contexts/User";
 import { Images } from "../../Utils/Images";
 import {
   Background,
