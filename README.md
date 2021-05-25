@@ -5,7 +5,6 @@ Nesta aplicação utilizamos a API celulardireto para criar um ambiente de contr
 Prova Front-End AlliedBR<br/>
 
 Desenvolvimento: <br/><br/>
-
 • Versionamento em repositório público (Github).  <br/>
 • Instruções para rodar o projeto (README).  <br/>
 • Componentes reutilizáveis.  <br/>
@@ -14,7 +13,6 @@ Desenvolvimento: <br/><br/>
 • ES6.  <br/>
 
 Linguagem utilizada: <br/><br/>
-
 • React 
 
 ## Acessível pelo link
