@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const url = "http://private-59658d-celulardireto2017.apiary-mock.com/planos";
+const url = "https://private-59658d-celulardireto2017.apiary-mock.com/planos";
 
 export const UsePlan = async (actualPlataform) => {
   try {

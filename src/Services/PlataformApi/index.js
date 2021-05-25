@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const url =
-  "http://private-59658d-celulardireto2017.apiary-mock.com/plataformas";
+  "https://private-59658d-celulardireto2017.apiary-mock.com/plataformas";
 
 export const UsePlataform = async () => {
   try {
